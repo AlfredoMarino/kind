@@ -12,7 +12,7 @@ https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 # Delete the existing cluster
 kind delete cluster --name aamvcluster
 # Create a config file for a 3 nodes cluster
-cat << EOF > kind-3nodes.yaml
+cat << EOF > aamvcluster-config.yaml
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 nodes:
