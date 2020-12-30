@@ -21,6 +21,9 @@ nodes:
     - containerPort: 30000
       hostPort: 30000
       protocol: TCP
+    - containerPort: 31000
+      hostPort: 31000
+      protocol: TCP
   - role: worker
   - role: worker
 EOF
